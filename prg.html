@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WORLD</title>
+    <style>
+        /* Internal CSS example */
+        body {
+            background-color: #f0f8ff; /* Light background */
+        }
+        .center {
+            text-align: center; /* Class selector */
+            color: green;
+        }
+        #special {
+            color: red; /* ID selector */
+        }
+        table, th, td {
+            border: 1px solid black; 
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--HEADINGS-->
+    <h1><i>Welcome to my world (Italic)</i></h1>
+    <h2><u>Welcome to my world (Underline)</u></h2>
+    <h3>Welcome to my world (Heading 3)</h3>
+    <h4>Welcome to my world (Heading 4)</h4>
+    <h5>Welcome to my world (Heading 5)</h5>
+    <h6>Welcome to my world (Heading 6)</h6>
+
+    <!--PARAGRAPH & LINK-->
+    <p id="special">Hello everybody, welcome to the world. Have a nice day ahead!</p>
+    <a href="https://www.sce.edu.bt" target="_blank">Click here to visit SCE website</a>
+
+    <!--  LISTS -->
+    <h2>Types of Lists</h2>
+
+    <!-- Ordered List -->
+    <ol type="A">
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>Potato</li>
+        <li>Apple</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <ul type="circle">
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>Potato</li>
+        <li>Apple</li>
+    </ul>
+
+    <!-- Definition List -->
+    <dl>
+        <dt>BEd:</dt>
+        <dd>This is a four-year programme. Students will be awarded a Bachelor's certificate in Education upon completion.</dd>
+    </dl>
+
+    <!-- ATTRIBUTES (IMAGE) -->
+    <h2>Image Example</h2>
+    <img src="bouquet-168831_1280.jpg" alt="Photo of flower" height="200">
+
+    <!-- INLINE CSS -->
+    <h2 style="color: blue; text-align: center;">This is a centered blue heading</h2>
+    <p style="font-family: Arial; color: brown;">This text is styled with Arial font and brown color.</p>
+
+    <!-- TABLES-->
+    <h2>Table Example</h2>
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Dorji</td>
+            <td>Lhamo</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Sangay</td>
+            <td>Phuntsho</td>
+            <td>27</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <th rowspan="2">Name</th>
+            <td>Jamyang</td>
+        </tr>
+        <tr>
+            <td>77745678</td>
+        </tr>
+        <tr>
+            <th>Phone</th>
+            <td>17845678</td>
+        </tr>
+    </table>
+
+    <!-- DIV & SPAN-->
+    <h2>Content Grouping</h2>
+    <div style="background-color: lightblue; padding: 10px;">
+        <h3>This section is inside a DIV</h3>
+        <p>Div is used for grouping larger sections.</p>
+    </div>
+
+    <p>This is an example of <span style="color: red;">highlighted text using span</span>.</p>
+
+    <!-- CASCADING & SPECIFICITY -->
+    <h2 class="center">This heading is styled by a class selector</h2>
+    <p id="special">This paragraph is styled by an ID selector (higher priority than class).</p>
+    <p style="color: blue;">This inline style overrides both class and ID (highest priority).</p>
+
+    <!-- IFRAMES -->
+    <h2>Iframe Example</h2>
+    <iframe src="https://www.sce.edu.bt" width="400" height="300"></iframe>
+
+
+</body>
+</html>
